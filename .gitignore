@@ -1,0 +1,52 @@
+# --- Secrets & Configuration ---
+.env
+.env.local
+.env.production
+*.key
+*.secret
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+# If you use venv, virtualenv, or conda, ignore them
+venv/
+ENV/
+env/
+.venv/
+
+# --- IDE & Editor Files ---
+# These contain personal settings and should not be shared
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- Logs ---
+# Logs might contain IP addresses or sensitive data
+*.log
+logs/
+
+# --- OS Files ---
+Thumbs.db
